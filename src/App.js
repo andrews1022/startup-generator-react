@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import Generate from './components/Generate';
+import Footer from './components/Footer';
 
 function App() {
+  const companies = ['Airbnb', 'Amazon', 'CodePen', 'Discord', 'GitHub', 'Reddit', 'Slack'];
+  const users = ['accountants', 'pilots', 'nurses', 'sports fans', 'bus drivers', 'cows', 'gardeners', 'programmers'];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header />
+      <Generate companies={ companies } users={ users } />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
