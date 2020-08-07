@@ -5,32 +5,24 @@ import Footer from './components/Footer';
 
 function App() {
   const companies = ['Airbnb', 'Amazon', 'CodePen', 'Discord', 'GitHub', 'Reddit', 'Slack'];
-  const users = ['accountants', 'pilots', 'nurses', 'sports fans', 'bus drivers', 'cows', 'gardeners', 'programmers'];
+  const users = [
+    'accountants',
+    'pilots',
+    'nurses',
+    'sports fans',
+    'bus drivers',
+    'cows',
+    'gardeners',
+    'programmers',
+  ];
 
   return (
-    <div className="app">
+    <div className='app'>
       <Header />
-      <Generate companies={ companies } users={ users } />
+      <Generate companies={companies} users={users} />
       <Footer />
     </div>
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
