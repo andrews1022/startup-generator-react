@@ -40,7 +40,7 @@ class Generate extends Component {
           <button className='generate__btn' onClick={this.outputMessage}>
             Generate
           </button>
-          <p className='generate__text'>{this.state.message} &nbsp; </p>
+          <p className='generate__text'>{this.state.message}</p>
         </div>
       </main>
     );
