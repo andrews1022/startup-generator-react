@@ -47,7 +47,7 @@ body {
 }
 
 .generate__btn {
-  background: linear-gradient(to right bottom, #FAE3D9, #FFB6B9);
+  background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
   border: none;
   border-radius: 50px;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
@@ -57,10 +57,10 @@ body {
   margin: 3rem 0 4rem 0;
   outline: none;
   padding: 1rem 2.5rem;
+  transition: all 175ms ease-in-out;
 }
 
 .generate__btn:hover {
-  background: linear-gradient(to right bottom, #FAE3D9, #FFB6B9);
+  background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
   filter: saturate(2);
-  transition: all 150ms ease-in-out;
 }
