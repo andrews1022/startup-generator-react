@@ -1,0 +1,96 @@
+$white: #fff;
+
+html {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	color: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #8ac6d1;
+	color: $white;
+	text-align: center;
+}
+
+.header {
+	margin-top: 1rem;
+
+	&__title {
+		font-size: 6.5rem;
+		font-weight: 300;
+		margin-bottom: 0.5rem;
+	}
+
+	&__tagline {
+		font-size: 1.25rem;
+	}
+}
+
+.generate {
+	background-color: #a1d2c6;
+	border-radius: 5px;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+	margin: 3rem auto 5rem auto;
+	padding: 2.25rem 7rem;
+	text-align: center;
+	width: 75%;
+
+	&__text {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
+
+	&__btn {
+		background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
+		border: none;
+		border-radius: 50px;
+		box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+		color: $white;
+		cursor: pointer;
+		font-size: 1.5rem;
+		margin: 3rem 0 4rem 0;
+		outline: none;
+		padding: 1rem 2.5rem;
+		transition: all 175ms ease-in-out;
+
+		&:hover {
+			background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
+			filter: saturate(2);
+		}
+	}
+}
+
+.footer {
+	color: $white;
+
+	&__text {
+	}
+
+	&__icon-row {
+		margin-top: 0.5%;
+	}
+
+	&__icon-link {
+		margin: 0 0.375%;
+		transition: all 175ms ease-in-out;
+
+		@media (hover) {
+			&:hover,
+			&:active,
+			&:focus {
+				opacity: 0.66;
+			}
+		}
+	}
+
+	&__icon {
+	}
+}

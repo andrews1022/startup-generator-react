@@ -7,6 +7,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  color: inherit;
   margin: 0;
   padding: 0;
 }
@@ -64,3 +65,23 @@ body {
   background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
   filter: saturate(2);
 }
+
+.footer {
+  color: #fff;
+}
+
+.footer__icon-row {
+  margin-top: 0.5%;
+}
+
+.footer__icon-link {
+  margin: 0 0.375%;
+  transition: all 175ms ease-in-out;
+}
+
+@media (hover) {
+  .footer__icon-link:hover, .footer__icon-link:active, .footer__icon-link:focus {
+    opacity: 0.66;
+  }
+}
+/*# sourceMappingURL=app.css.map */

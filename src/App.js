@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Generate from './components/Generate';
 import Footer from './components/Footer';
-import './styles/App.css';
+import './styles/app.min.css';
 
 const App = () => {
 	return (
