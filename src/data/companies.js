@@ -37,6 +37,7 @@ const companies = [
 	'Medium',
 	'Meetup',
 	'Netflix',
+	'OnlyFans',
 	'Photoshop',
 	'Pinterest',
 	'Pirate Bay',

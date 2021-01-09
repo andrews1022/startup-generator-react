@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 *,
@@ -23,7 +23,7 @@ body {
 }
 
 .header__title {
-  font-size: 6.5rem;
+  font-size: 6rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
 }
@@ -35,8 +35,8 @@ body {
 .generate {
   background-color: #a1d2c6;
   border-radius: 5px;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
-  margin: 3rem auto 5rem auto;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.15);
+  margin: 4rem auto;
   padding: 2.25rem 7rem;
   text-align: center;
   width: 75%;
@@ -48,10 +48,9 @@ body {
 }
 
 .generate__btn {
-  background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
+  background-color: transparent;
   border: none;
-  border-radius: 50px;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  border-radius: 4rem;
   color: #fff;
   cursor: pointer;
   font-size: 1.5rem;
@@ -62,8 +61,13 @@ body {
 }
 
 .generate__btn:hover {
-  background: linear-gradient(to right bottom, #fae3d9, #ffb6b9);
-  filter: saturate(2);
+  background-color: #65b4c3;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.25rem);
+}
+
+.generate__btn:active {
+  transform: translateY(0.25rem);
 }
 
 .footer {
