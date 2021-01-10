@@ -13,16 +13,14 @@ const Generate = () => {
 	};
 
 	return (
-		<main className='main'>
-			<div className='generate'>
-				<p className='generate__text'>"Hey! I got this great idea for a start-up!"</p>
-				<p className='generate__text'>"Yeah? What's it about?"</p>
-				<button className='generate__btn' onClick={generateMessage}>
-					Generate
-				</button>
-				<p className='generate__text'>&nbsp;{message}</p>
-			</div>
-		</main>
+		<div className='generate'>
+			<p className='generate__text'>"Hey! I got this great idea for a start-up!"</p>
+			<p className='generate__text'>"Yeah? What's it about?"</p>
+			<button className='generate__btn' onClick={generateMessage}>
+				Generate
+			</button>
+			<p className='generate__text'>&nbsp;{message}</p>
+		</div>
 	);
 };
 
