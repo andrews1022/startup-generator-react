@@ -4,6 +4,10 @@ I built this using what I've learned in React so far, which is passing data thro
 
 The random value arrays are small for now, will potentially expand upon them later.
 
+## Update: March 25, 2021
+
+Added full testing with Enzyme, and node-sass to better organize component files/folders
+
 ## Update: August 8, 2020
 
 I re-wrote the Generate component using the useState hook
