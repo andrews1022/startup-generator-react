@@ -1,13 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import './Footer.scss';
 
 const Footer = () => {
 	const gitHubLink = 'https://github.com/andrews1022/startup-generator-react';
 	const twitterLink = 'https://twitter.com/andrew_devsrc';
 
 	return (
-		<footer className='footer'>
+		<footer className='footer' data-test='component-footer'>
 			<p className='footer__text'>
 				© {new Date().getFullYear()} all rights reserved. designed and built and andrew shearer
 			</p>
